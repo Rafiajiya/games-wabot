@@ -21,8 +21,8 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 DONASI 〙 ═
-╠➥ Gopay: 085713964963
-╠➥ Indosat: 085713964963
+╠➥ Gopay: 0882007331744
+╠➥ Smartfren: 088233481992
 ║
 ╠═ Request? ${package.bugs.url}
 ╠═ Official Group *${conn.user.name}* :
@@ -39,11 +39,11 @@ ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n�
 ╠➥ *KAMI AKAN MENYIMPAN DATA*
 ║   *SEPERTI NOMER TELEPON*
 ║   *ANDA DI DATABASE KAMI*
-║ 
+╠➥  *Jangan Spam Ya Kontol
 ║ 
 ╠═ ©2021 ${package.name}
-╠═ Script original by Nurutomo
-╠═〘 METRO BOT 〙 ═
+╠═ Script original by Raffi Aji
+╠═〘 EVania BOT 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
